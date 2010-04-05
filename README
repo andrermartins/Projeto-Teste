@@ -1,0 +1,19 @@
+Global setup:
+ Download and install Git
+  git config --global user.name "André R. Martins"
+  git config --global user.email andrermartins@gmail.com
+        
+Next steps:
+  mkdir Projeto-Teste
+  cd Projeto-Teste
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:andrermartins/Projeto-Teste.git
+  git push origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:andrermartins/Projeto-Teste.git
+  git push origin master
